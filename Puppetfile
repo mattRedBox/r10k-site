@@ -4,8 +4,8 @@ mod "puppetlabs/stdlib"
 
 mod "puppetlabs/apache"
 
-#mod "redbox",
-#    :git => "git://github.com/mattRedBox/puppet-redbox.git"
+mod "redbox",
+    :git => "git://github.com/mattRedBox/puppet-redbox.git"
 
 # mod 'ntp',
 #   :git => 'git://github.com/puppetlabs/puppetlabs-ntp.git'
