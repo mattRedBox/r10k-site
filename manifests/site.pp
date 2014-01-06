@@ -1,1 +1,1 @@
-class {'redbox':}
+import "nodes"
