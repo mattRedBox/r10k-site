@@ -1,1 +1,1 @@
-##class {'redbox':}
+class {'redbox':}
