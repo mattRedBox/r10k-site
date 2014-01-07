@@ -15,6 +15,7 @@ mod "redbox",
 ## libraries and db storage for nagios
 mod "puppetlabs/inifile"
 mod "puppetlabs/firewall"
+mod "puppetlabs/apt", "1.4.0"
 mod "puppetlabs/postgresql"
 mod "puppetlabs/puppetdb"
 
