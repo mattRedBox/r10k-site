@@ -1,4 +1,4 @@
-node puppetmaster {
+node master {
    class { 'puppetdb': }
    class { 'puppetdb::master::config': }
 }
