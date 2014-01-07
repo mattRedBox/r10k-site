@@ -20,4 +20,4 @@ mod "puppetlabs/postgresql"
 mod "puppetlabs/puppetdb"
 
 mod "nagios-server",
-    :git => "git://github.com/mattRedBox/nagios.git"
+    :git => "git://github.com/mattRedBox/nagios-server.git"
