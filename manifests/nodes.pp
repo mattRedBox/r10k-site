@@ -1,7 +1,6 @@
 node puppetmaster {
    class { 'puppetdb': }
    class { 'puppetdb::master::config': }
-   class { 'passenger': }
 }
 
 node puppetagent {
