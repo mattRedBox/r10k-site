@@ -5,9 +5,9 @@ node puppetmaster {
 
 node puppetagent {
    class { 'redbox' : }
-   include nagios-server::export
+   class { 'nagios-server::export' : }
 }
 
 node nagios {
-   include nagios-server
+   class { 'nagios-server' : }
 }
