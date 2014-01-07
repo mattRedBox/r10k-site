@@ -11,6 +11,8 @@ mod "puppetlabs/apache"
 mod "redbox",
     :git => "git://github.com/mattRedBox/puppet-redbox.git"
 
+## passenger needed (with apache) for multiple agents
+mode "puppetlabs/passenger"
 
 ## libraries and db storage for nagios
 mod "puppetlabs/inifile"
