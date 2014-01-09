@@ -15,6 +15,9 @@ mod "redbox",
 mod "puppetlabs/inifile"
 mod "puppetlabs/firewall"
 mod "puppetlabs/apt", "1.4.0"
+## passenger needed as default web server poor for multiple hosts
+mod "puppetlabs/passenger"
+
 mod "puppetlabs/postgresql"
 mod "puppetlabs/puppetdb"
 
