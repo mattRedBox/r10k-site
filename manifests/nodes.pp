@@ -1,5 +1,4 @@
 node puppetmaster {
-   class { 'puppet-default': }
    class { 'puppet-passenger': }
    class { 'puppetdb': }
    class { 'puppetdb::master::config': }

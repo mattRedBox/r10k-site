@@ -29,5 +29,5 @@ mod "nagios-server",
 mod "puppetlabs/ntp"
 
 ## other misc. packages in puppet-default
-mod "puppet-default",
-    :git => "git://github.com/mattRedBox/puppet-default.git"
+##mod "puppet-default",
+  ##  :git => "git://github.com/mattRedBox/puppet-default.git"
