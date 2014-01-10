@@ -27,3 +27,7 @@ mod "nagios-server",
 
 ## master and agent communicate via SSL - need common time-server
 mod "puppetlabs/ntp"
+
+## other misc. packages in puppet-default
+mod "puppet-default",
+    :git => "git://github.com/mattRedBox/puppet-default.git"
