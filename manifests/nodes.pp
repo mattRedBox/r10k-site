@@ -1,4 +1,5 @@
 node puppetmaster {
+   class { 'puppet-passenger': }
    class { 'puppetdb': }
    class { 'puppetdb::master::config': }
    class { '::ntp':
