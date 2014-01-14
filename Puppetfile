@@ -25,5 +25,3 @@ mod "puppet-passenger",
 mod "nagios-server",
     :git => "git://github.com/mattRedBox/nagios-server.git"
 
-## master and agent communicate via SSL - need common time-server
-mod "puppetlabs/ntp"
