@@ -25,3 +25,5 @@ mod "puppet-passenger",
 mod "nagios-server",
     :git => "git://github.com/mattRedBox/nagios-server.git"
 
+mod "nagios-client",
+    :git => "git://github.com/mattRedBox/nagios-client.git"
